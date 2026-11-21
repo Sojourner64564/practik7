@@ -1,0 +1,37 @@
+{
+  "args": {
+    "dataset": "lastfm",
+    "path": "data/hetrec2011-lastfm-2k",
+    "model": "popular,content,als",
+    "k": [
+      10
+    ],
+    "evaluate": true,
+    "eda": false,
+    "mmr": [],
+    "segment_threshold": null,
+    "seed": 42,
+    "output": "results/lastfm"
+  },
+  "seed": 42,
+  "versions": {
+    "python": "3.12.0",
+    "numpy": "2.5.5",
+    "pandas": "3.1.1",
+    "scipy": "1.18.1",
+    "sklearn": "1.9.1",
+    "surprise": "1.1.5",
+    "implicit": "0.7.3"
+  },
+  "n_users": 1859,
+  "n_items": 2823,
+  "n_train": 62190,
+  "n_test": 9165,
+  "n_eval_users": 1833,
+  "segment_threshold": 36.0,
+  "fit_seconds": {
+    "popular": 0.0,
+    "content": 0.1,
+    "als": 0.24
+  }
+}

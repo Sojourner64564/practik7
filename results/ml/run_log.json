@@ -1,0 +1,44 @@
+{
+  "args": {
+    "dataset": "movielens",
+    "path": "data/ml-latest-small",
+    "model": "all",
+    "k": [
+      5,
+      10
+    ],
+    "evaluate": true,
+    "eda": true,
+    "mmr": [
+      0.5,
+      0.7,
+      0.9
+    ],
+    "segment_threshold": null,
+    "seed": 42,
+    "output": "results/ml"
+  },
+  "seed": 42,
+  "versions": {
+    "python": "3.12.0",
+    "numpy": "2.5.5",
+    "pandas": "3.1.1",
+    "scipy": "1.18.1",
+    "sklearn": "1.9.1",
+    "surprise": "1.1.5",
+    "implicit": "0.7.3"
+  },
+  "n_users": 610,
+  "n_items": 3650,
+  "n_train": 87224,
+  "n_test": 3050,
+  "n_eval_users": 544,
+  "segment_threshold": 58.5,
+  "fit_seconds": {
+    "popular": 0.0,
+    "content": 0.04,
+    "svd": 0.46,
+    "als": 0.15,
+    "bpr": 0.22
+  }
+}
