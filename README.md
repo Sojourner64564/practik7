@@ -47,8 +47,8 @@
 ```
 practice7/
 ├── data/                       # Датасеты (не входят в git)
-│   ├── ml-latest-small/        # MovieLens (явные оценки)
-│   └── hetrec2011-lastfm-2k/   # Last.fm (неявные данные)
+│   ├── ml-latest-small/        # MovieLens (явные оценки (не включены в GIT))
+│   └── hetrec2011-lastfm-2k/   # Last.fm (неявные данные (не включены в GIT))
 ├── recsys_lib/                 # Код библиотеки
 │   ├── data.py                 # Загрузка датасетов, дедупликация, k-core фильтр, сплит
 │   ├── models.py               # Модели: Popular, Content, SVD, ALS/BPR, TF-IDF-матрица
